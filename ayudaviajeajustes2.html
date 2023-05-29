@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>/tp</title>
+  <style>
+    body {
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .watch {
+      width: 300px;
+      height: 400px;
+      background-color: #F8DCB4;
+      border-radius: 30px;
+      border: 5px solid #aaa;
+      position: relative;
+    }
+
+    .screen {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(252, 208, 180, 1.0);
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      position: absolute;
+    }
+    .text {
+      color: #2D41ED;
+      font-size: 30px;
+      font-family: "Noto Sans KR", sans-serif;
+      text-align: center;
+      margin-top: 10px;
+    }
+    .separator {
+      position: absolute;
+      width: 100%;
+      top: 100px;
+      border: 1px solid #000000;
+    }
+    .siteName {
+      color: #000;
+      font-size: 20px;
+      font-family: "Noto Sans KR", sans-serif;
+      text-align: center;
+      position: absolute;
+      top: 75px;
+      left: 80px;
+    }
+    .back {
+      font-size: 50px;
+      font-weight: bold;
+      color: #2D41ED;
+      text-decoration: none;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      transform: rotate(180deg);
+      background-color: transparent;
+      border-color: transparent;
+    }
+    .texto-ayuda {
+      color: #000;
+      font-size: 12px;
+      font-family: "Noto Sans KR", sans-serif;
+      position: absolute;
+      top: 103px;
+      left: 5px;
+    }
+    .button{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: rgba(86, 94, 226, 1.0);
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      text-align: center;
+      color: rgba(252, 208, 180, 1.0);
+      font-size: 8px;
+    }
+    .boton1 {
+      top: 120px;
+      left: 190px;
+    }
+    .boton2 {
+      top: 215px;
+      left: 120px;
+    }
+    .boton3 {
+      top: 260px;
+      left: 240px;
+    }
+    .boton4 {
+      top: 315px;
+      left: 250px;
+    }
+  </style>
+</head>
+<body>
+  <div class="watch">
+    <div class="screen">
+      <div class="text">/tp</div>
+      <a href="ayudaajustes2.html">
+        <button class="back">&#8250;</button>
+      </a>
+      <div class="separator"></div>
+      <div class="siteName">Realizar un viaje</div>
+      <div class="texto-ayuda">
+        Para la realizacion de un viaje hay tres opciones:<br>
+        1- Viaje desde favoritos:<br>
+        Para viajar desde favoritos<br>
+        solo hay que acceder a nuestra<br>
+        lista de favoritos seleccionar a que lugar de los guardados queremos viajar y confirmar con la huella dactilar.<br>
+        Tanto para la opción 2 como para la 3 hay que acceder a la zona de ultimos.
+        <br>
+        <br>
+        <br>
+        2- Desde la zona de ultimos accedemos<br>
+        a la opcion de historial donde estaran los<br>
+        ulimos viajes realizados. El proceso de<br>
+        viaje es igual que desde favoritos<br>
+        3- Desde la zona de ultimos accedemos a la<br>
+        opcion de mas concurridos donde estan los<br>
+        lugares a los que más viaja la gente. <br>
+        El proceso de viaje es igual que desde favoritos
+      </div>
+      <div class="button boton1">Favoritos</div>
+      <div class="button boton2">Últimos</div>
+      <div class="button boton3">Historial</div>
+      <div class="button boton4">Más Concurridos</div>
+    </div>
+</body>
+</html>

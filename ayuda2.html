@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>/tp</title>
+  <style>
+    body {
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .watch {
+      width: 300px;
+      height: 400px;
+      background-color: #F8DCB4;
+      border-radius: 30px;
+      border: 5px solid #aaa;
+      position: relative;
+    }
+
+    .screen {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(252, 208, 180, 1.0);
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      position: absolute;
+    }
+    .text {
+      color: #2D41ED;
+      font-size: 30px;
+      font-family: "Noto Sans KR", sans-serif;
+      text-align: center;
+      margin-top: 10px;
+    }
+    .separator {
+      position: absolute;
+      width: 100%;
+      top: 100px;
+      border: 1px solid #000000;
+    }
+    .siteName {
+      color: #000;
+      font-size: 25px;
+      font-family: "Noto Sans KR", sans-serif;
+      text-align: center;
+      position: absolute;
+      top: 70px;
+      left: 105px;
+    }
+    .back {
+      font-size: 50px;
+      font-weight: bold;
+      color: #2D41ED;
+      text-decoration: none;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      transform: rotate(180deg);
+      background-color: transparent;
+      border-color: transparent;
+    }
+    .cajaInformacion{
+      position: relative;
+      width: 285px;
+      margin-left: 5px;
+      height: 35px;
+      margin-bottom: 5px;
+      background: rgba(255, 255, 255, 0.62);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      top: 60px;
+      border-color: transparent;
+
+      color: #000;
+      font-size: 15px;
+      font-family: "Noto Sans KR", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="watch">
+    <div class="screen">
+      <div class="text">/tp</div>
+      <a href="pantallaPrincipalLetras2.html">
+        <button class="back">&#8250;</button>
+      </a>
+      <div class="separator"></div>
+      <div class="siteName">Ayuda</div>
+      <div>
+        <a href="ayudalocalizacion2.html">
+        <button class="cajaInformacion">Añadir una locaclización</button>
+      </a>
+      <a href="ayudaviaje2.html">
+        <button class="cajaInformacion">Realizar un viaje</button>
+      </a>
+      <a href="ayudabotones2.html">
+        <button class="cajaInformacion">Cambiar el modo de los botones</button>
+      </a>
+      </div>
+    </div>
+</body>
+</html>
